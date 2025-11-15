@@ -398,3 +398,52 @@ footer{
     outline: none;
 }
 /* Footer Bottom */
+
+@media (max-width: 992px) {
+    /* hero-section */
+    header {
+        display: flex;
+    }
+    .header-content {
+        display: flex;
+        flex-direction: column;
+      }
+    /* hero-section */
+    /* Clients-section */
+    .Clients-section ul{
+        display: flex;
+        justify-content: center;
+    }  
+    /* Clients-section */
+}
+@media (max-width: 655px) {
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-cta{
+        display: flex;
+        flex-direction: column;
+      }
+      .hero-content{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px;
+        font-size: 10px;
+      }
+      .hero-text p{
+        text-align: left;
+      }
+    .hero-text h1{
+      font-size: 26px;
+    }
+    /* hero-section */
+    .Clients-section{
+        text-align: left;
+    }
+   
+
+}
+
