@@ -409,12 +409,7 @@ footer{
         flex-direction: column;
       }
     /* hero-section */
-    /* Clients-section */
-    .Clients-section ul{
-        display: flex;
-        justify-content: center;
-    }  
-    /* Clients-section */
+ 
 }
 @media (max-width: 655px) {
 
@@ -440,10 +435,9 @@ footer{
       font-size: 26px;
     }
     /* hero-section */
-    .Clients-section{
-        text-align: left;
-    }
+   
    
 
 }
+
 
